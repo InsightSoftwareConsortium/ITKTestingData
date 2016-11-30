@@ -1,0 +1,6 @@
+ObjectType = Image
+NDims = 3
+DimSize = 6 6 6
+ElementType = MET_UCHAR
+HeaderSize = 8
+ElementDataFile = Small Ramp Volume %02d.tif 1 6 1 

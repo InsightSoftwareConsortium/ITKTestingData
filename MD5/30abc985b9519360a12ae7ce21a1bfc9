@@ -1,0 +1,13 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = -2.44885 16.8389 1
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 2 2 2
+DimSize = 41 21 19
+ElementType = MET_UCHAR
+ElementDataFile = itkLabelGeometryImageFilterTest3D.raw
