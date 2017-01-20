@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifact type="mesh"
+          xmlns="http://www-irn.sandia.gov/schema/dart/3.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www-irn.sandia.gov/schema/dart/3.0 http://www-irn.sandia.gov/schema/dart/3.0/DARTMetadata.xsd">
+  <solid-model>
+    <metadata-source application="CUBIT" application-version="10.2b" last-modified-date="2006-09-28" extended-data=""/>
+    <assembly number="tube" description="" instance="1">
+      <file format="" href=""/>
+      <assembly number="parts" description="" instance="1">
+        <file format="" href=""/>
+        <part number="part1" description="Part1" instance="1">
+          <file format="" href=""/>
+          <material-specification description="Foam" specification="Foam123"/>
+        </part>
+        <part number="part2" description="Part2" instance="1">
+          <file format="" href=""/>
+          <material-specification description="Foama" specification="Foam156"/>
+        </part>
+        <part number="part3" description="Part3" instance="1">
+          <file format="" href=""/>
+          <material-specification description="Foamb" specification="Foam853"/>
+        </part>
+      </assembly>
+    </assembly>
+  </solid-model>
+  <mesh>
+    <metadata-source application="CUBIT" application-version="10.2b" last-modified-date="2006-09-28"/>
+    <file format="Exodus" href="/home/cjstimp/models/tube.exo"/>
+    <blocks part-number="part1" part-instance="1">
+      <block id="1"/>
+      <block id="3"/>
+    </blocks>
+    <blocks part-number="part2" part-instance="1">
+      <block id="4"/>
+    </blocks>
+    <blocks part-number="part3" part-instance="1">
+      <block id="5"/>
+    </blocks>
+  </mesh>
+</artifact>

@@ -1,0 +1,11 @@
+<VTKFile type="PImageData" version="0.1" byte_order="LittleEndian">
+  <PImageData WholeExtent="256 319 0 0 81 144" GhostLevel="0" Origin="6950 0 900" Spacing="1 1 1">
+    <PPointData>
+      <PDataArray type="Float32" Name="grad-ue" NumberOfComponents="9"/>
+    </PPointData>
+    <Piece Extent="256 287 0 0 81 112" Source="tensors_0.vti"/>
+    <Piece Extent="287 319 0 0 81 112" Source="tensors_1.vti"/>
+    <Piece Extent="256 287 0 0 112 144" Source="tensors_2.vti"/>
+    <Piece Extent="287 319 0 0 112 144" Source="tensors_3.vti"/>
+  </PImageData>
+</VTKFile>

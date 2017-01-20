@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" [
+<!ENTITY HeavyData "Test1.h5">
+]>
+
+
+
+<Xdmf>
+  <Domain>
+    <Grid Name="Unnamed">
+      <Topology  Type="TETRAHEDRON"
+         Dimensions="18"><DataStructure
+           DataType="Int"
+           Dimensions="18 4"
+           Format="HDF">
+             Test1.h5:/Unnamed/Connections
+        </DataStructure>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="16 3"
+           Format="HDF">
+           Test1.h5:/Unnamed/XYZ
+          
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Center="Node"
+         Name="DataOne">
+        <DataStructure
+           DataType="Float"
+           Precision="8"
+           Dimensions="16"
+           Format="HDF">
+           Test1.h5:/Unnamed/DataOne
+          
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Center="Node"
+         Name="DataTwo">
+        <DataStructure
+           DataType="Float"
+           Precision="8"
+           Dimensions="16"
+           Format="HDF">
+           Test1.h5:/Unnamed/DataTwo
+          
+        </DataStructure>
+      </Attribute>
+     
+      <Set SetType="Node" Name="nodeSet">
+        <DataItem NumberType="Int" Dimensions="4" Format="XML">
+            0 3 4 7
+        </DataItem>
+        <Attribute Name="Node Centered Set Values" Center="Node">
+            <DataItem Format="XML" Dimensions="4">
+            0 300 400 700
+            </DataItem>
+        </Attribute>
+      </Set>
+
+      <Set SetType="Face" Name="faceSet">
+         <DataItem NumberType="Int" Dimensions="2" Format="XML">
+             6 7
+         </DataItem>
+         <DataItem NumberType="Int" Dimensions="2" Format="XML">
+             1 0
+         </DataItem>
+      </Set>
+
+      <Set SetType="Edge" Name="edgeSet">
+          <DataItem NumberType="Int" Dimensions="4" Format="XML">
+              0 0 1 1
+          </DataItem>
+          <DataItem NumberType="Int" Dimensions="4" Format="XML">
+              0 1 2 3
+          </DataItem>
+          <DataItem NumberType="Int" Dimensions="4" Format="XML">
+              0 1 0 2
+          </DataItem>
+          <Attribute Name="Set Values" Center="Edge">
+              <DataItem Format="XML" Dimensions="4">
+              100 200 400 600
+              </DataItem>
+          </Attribute>
+          <Attribute Name="Other Set Values" Center="Edge">
+              <DataItem Format="XML" Dimensions="4">
+              1000 2000 4000 6000
+              </DataItem>
+          </Attribute>
+      </Set>
+    </Grid>
+  </Domain>
+</Xdmf>

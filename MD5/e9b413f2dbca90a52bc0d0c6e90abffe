@@ -1,0 +1,169 @@
+<Servers>
+  <Server name="case1" resource="cs://amber1:20234" owner="site">
+    <ManualStartup />
+  </Server>
+  
+  <Server name="case2" resource="cs://amber1" owner="site">
+    <ManualStartup>
+      <Options>
+        <Option name="PV_SERVER_PORT" label="Server Port: ">
+          <Range type="int" min="1" max="65535" step="1" default="11111" />
+        </Option>
+      </Options>
+    </ManualStartup>
+  </Server>
+
+  <Server name="case3" resource="cdsrs://amber1:20230//amber2:20233" owner="site">
+    <ManualStartup />
+  </Server>
+
+  <Server name="case4" resource="cdsrs://localhost//localhost" owner="site">
+    <ManualStartup>
+      <Options>
+        <Option name="PV_DATA_SERVER_PORT" label="Data Server Port: ">
+          <Range type="int" min="1" max="65535" step="1" default="11111" />
+        </Option>
+        <Option name="PV_RENDER_SERVER_PORT" label="Render Server Port: ">
+          <Range type="int" min="1" max="65535" step="1" default="22222" />
+        </Option>
+      </Options>
+    </ManualStartup>
+  </Server>
+
+  <Server name="case6" resource="cs://localhost" owner="site">
+    <CommandStartup>
+      <Options>
+        <!-- The user chooses the port on which to start the server -->
+        <Option name="PV_SERVER_PORT" label="Server Port: ">
+          <Range type="int" min="1" max="65535" step="1" default="11111" />
+        </Option>
+      </Options>
+      <Command exec="/home/utkarsh/Kitware/ParaView3/ParaView3Bin/bin/pvserver"
+               delay="5">
+        <Arguments>
+          <Argument value="-sp=$PV_SERVER_PORT$" />
+        </Arguments>
+      </Command>
+    </CommandStartup>
+  </Server>
+
+  <Server name="case7" resource="cs://localhost" owner="site">
+   <CommandStartup>
+     <Options>
+       <Option name="PV_CONNECT_ID" label="Connect ID" readonly="true">
+         <Range type="int" min="1" max="65535" step="1" default="random" />
+       </Option>
+     </Options>
+     <Command exec="/usr/bin/pvserver" delay="5">
+       <Arguments>
+         <Argument value="--connect-id=$PV_CONNECT_ID$" />
+       </Arguments>
+     </Command>
+   </CommandStartup>
+  </Server>
+
+  <Server name="case8" resource="cs://localhost:11111" owner="user">
+    <CommandStartup>
+      <Options>
+        <Option name="SSH_USER" label="SSH Username" save="true">
+          <!-- choose the username. Since 'save' is true, this value will 
+               be maintained across sessions -->
+          <String default="utkarsh" />
+        </Option>
+        <Option name="SSH_EXE" label="SSH Executable" save="true">
+          <!-- select the SSH executable. Since 'save' is true, this value will
+               also be maintinaed across sessions -->
+          <File default="ssh" />
+        </Option>
+      </Options>
+      <Command exec="$SSH_EXE$" delay="5">
+        <Arguments>
+          <Argument value="-L11111:amber5:11111" /> <!-- port forwarding -->
+          <Argument value="amber5" />
+          <Argument value="-l" />
+          <Argument value="$SSH_USER$" />
+          <Argument value="/usr/bin/pvserver" />
+        </Arguments>
+      </Command>
+    </CommandStartup>
+  </Server>
+
+  <Server name="case9" resource="cs://localhost" owner="site">
+    <CommandStartup>
+      <Options>
+        <Option name="OFFSCREEN" label="Use offscreen rendering">
+          <Boolean true="--use-offscreen" false="--use-onscreen" default="false" />
+        </Option>
+        <Option name="SESSIONID" label="Session Identifier">
+          <String default="session01"/>
+        </Option>
+        <Option name="MPITYPE" label="MPI Implementation">
+          <Enumeration default="mpich1.2">
+            <Entry value="mpich1.2" label="MPICH Ver. 1.2" />
+            <Entry value="mpich2" label="MPICH Ver 2.0" />
+            <Entry value="openmpi" label="Open MPI" />
+          </Enumeration>
+        </Option>
+        <Option name="NUMPROC" label="Number Of Processes">
+          <Range type="int" min="1" max="256" step="4" default="1" />
+        </Option>
+      </Options>
+      <Command exec="/tmp/MyServerStarter" delay="5">
+        <Arguments>
+          <Argument value="--server-port=$PV_SERVER_PORT$" />
+          <Argument value="--mpitype=$MPITYPE$" />
+          <Argument value="--num-procs=$NUMPROC$" />
+          <Argument value="$OFFSCREEN$" />
+          <Argument value="--session-name=$SESSIONID$" />
+        </Arguments>
+      </Command>
+    </CommandStartup>
+  </Server>
+
+  <Server name="case10" resource="cs://localhost" owner="site">
+    <CommandStartup>
+      <Options>
+        <Option name="OFFSCREEN" label="Use offscreen rendering">
+          <Boolean true="--use-offscreen" false="--use-onscreen" default="false" />
+        </Option>
+        <Option name="SESSIONID" label="Session Identifier">
+          <String default="session01"/>
+        </Option>
+        <Option name="MPITYPE" label="MPI Implementation">
+          <Enumeration default="mpich1.2">
+            <Entry value="mpich1.2" label="MPICH Ver. 1.2" />
+            <Entry value="mpich2" label="MPICH Ver 2.0" />
+            <Entry value="openmpi" label="Open MPI" />
+          </Enumeration>
+        </Option>
+        <Option name="PARALLELISM" label="Parallelism Mode">
+          <Enumeration default="noparallel">
+            <Entry value="noparallel" label="No Parallelism" />
+            <Entry value="someparallel" label="Some Parallelism" />
+            <Entry value="highparallel" label="Highly Parallel" />
+          </Enumeration>
+        </Option>
+        <Switch name="PARALLELISM">
+          <Case value="noparallel">
+            <Set name="NUMPROC" value="1" />
+          </Case>
+          <Case value="someparallel">
+            <Set name="NUMPROC" value="2" />
+          </Case>
+          <Case value="highparallel">
+            <Set name="NUMPROC" value="10" />
+          </Case>
+        </Switch>
+      </Options>
+      <Command exec="/tmp/MyServerStarter" delay="5">
+        <Arguments>
+          <Argument value="--server-port=$PV_SERVER_PORT$" />
+          <Argument value="--mpitype=$MPITYPE$" />
+          <Argument value="--num-procs=$NUMPROC$" />
+          <Argument value="$OFFSCREEN$" />
+          <Argument value="--session-name=$SESSIONID$" />
+        </Arguments>
+      </Command>
+    </CommandStartup>
+  </Server>
+</Servers>

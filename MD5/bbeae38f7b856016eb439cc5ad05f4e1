@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<PhastaMetaFile number_of_pieces="1">
+  <GeometryFileNamePattern pattern="sonicgeom.dat.%d" 
+                           has_piece_entry="1"/>
+  <FieldFileNamePattern pattern="sonicrestart.%d"
+                        has_piece_entry="1"/>
+</PhastaMetaFile>

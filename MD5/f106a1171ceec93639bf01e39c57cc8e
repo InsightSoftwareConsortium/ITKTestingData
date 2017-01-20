@@ -1,0 +1,17 @@
+gmvinput ascii
+nodes 1
+ 0 0 50
+cells 0
+material 2 1
+mat1
+mat2
+1
+polygons
+2 4 -75 -75 -75 -75
+    -50 -50 150 150
+    150 -75 -75
+endpoly
+comments
+  trailing 150 is missing in polygons definition
+endcomm
+endgmv

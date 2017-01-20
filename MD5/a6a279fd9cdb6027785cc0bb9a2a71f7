@@ -1,0 +1,3 @@
+filetemplate:	       eddy_uv.fld%02d
+firsttimestep: 1
+numtimesteps: 12

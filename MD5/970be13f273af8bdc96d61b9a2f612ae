@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "xdmf.dtd" []>
+
+
+<Xdmf>
+
+
+<Domain>
+
+
+<Grid Name="Block 1"
+>
+
+<Topology Type="Tetrahedron"
+ NumberOfElements="    4608"
+ BaseOffset="       1"
+>
+<DataItem Format="HDF"
+ Dimensions="    4608  4"
+ DataType="Int"
+>
+          Geom.h5:/Block 1/Connections
+</DataItem>
+</Topology>
+
+
+<Geometry Type="XYZ"
+>
+<DataItem Format="HDF"
+ Dimensions="    1295 3"
+ DataType="Float"
+>
+          Geom.h5:/Block 1/Geometry
+</DataItem>
+</Geometry>
+
+
+<Attribute Name="MaterialID"
+ Center="Grid"
+ AttributeType="Scalar"
+>
+<DataItem Format="XML"
+ Dimensions="1"
+ DataType="Int"
+>
+ 1
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_X"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_X
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_Y"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_Y
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_Z"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_Z
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL"
+ Center="Node"
+ Type="Vector"
+>
+<DataItem ItemType="Function"
+ Format="XML"
+ Function="join($0 , $1 , $2)"
+ Dimensions="    1295 3"
+>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_X
+</DataItem>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_Y
+</DataItem>
+<DataItem Format="HDF"
+ Dimensions="    1295 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/DISPL_Z
+</DataItem>
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="EQPS"
+ Center="Cell"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    4608 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 1/Scalars/EQPS
+</DataItem>
+</Attribute>
+
+
+</Grid>
+
+
+<Grid Name="Block 2"
+>
+
+<Topology Type="Tetrahedron"
+ NumberOfElements="   31104"
+ BaseOffset="    2001"
+>
+<DataItem Format="HDF"
+ Dimensions="   31104  4"
+ DataType="Int"
+>
+          Geom.h5:/Block 2/Connections
+</DataItem>
+</Topology>
+
+
+<Geometry Type="XYZ"
+>
+<DataItem Format="HDF"
+ Dimensions="    7684 3"
+ DataType="Float"
+>
+          Geom.h5:/Block 2/Geometry
+</DataItem>
+</Geometry>
+
+
+<Attribute Name="MaterialID"
+ Center="Grid"
+ AttributeType="Scalar"
+>
+<DataItem Format="XML"
+ Dimensions="1"
+ DataType="Int"
+>
+ 2
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_X"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_X
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_Y"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_Y
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL_Z"
+ Center="Node"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_Z
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="DISPL"
+ Center="Node"
+ Type="Vector"
+>
+<DataItem ItemType="Function"
+ Format="XML"
+ Function="join($0 , $1 , $2)"
+ Dimensions="    7684 3"
+>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_X
+</DataItem>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_Y
+</DataItem>
+<DataItem Format="HDF"
+ Dimensions="    7684 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/DISPL_Z
+</DataItem>
+</DataItem>
+</Attribute>
+
+
+<Attribute Name="EQPS"
+ Center="Cell"
+ AttributeType="Scalar"
+>
+<DataItem Format="HDF"
+ Dimensions="   31104 "
+ DataType="Float"
+>
+          Step0004.h5:/Block 2/Scalars/EQPS
+</DataItem>
+</Attribute>
+
+
+</Grid>
+
+
+</Domain>
+
+
+</Xdmf>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<VTKFile type="PolyData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <PolyData>
+    <Piece NumberOfPoints="1" NumberOfVerts="1" NumberOfLines="0" NumberOfStrips="0" NumberOfPolys="0">
+      <PointData>
+        <DataArray type="Int32" Name="Id" format="binary" RangeMin="1" RangeMax="1">
+          AQAAAACAAAAEAAAADAAAAA==eJxjZGBgAAAACAAC
+        </DataArray>
+        <DataArray type="Int32" Name="Material" format="binary" RangeMin="1" RangeMax="1">
+          AQAAAACAAAAEAAAADAAAAA==eJxjZGBgAAAACAAC
+        </DataArray>
+        <DataArray type="Float64" Name="Volume" format="binary" RangeMin="95.99871144" RangeMax="95.99871144">
+          AQAAAACAAAAIAAAAEAAAAA==eJxLSU5+/Op/uAMAFDEEjg==
+        </DataArray>
+        <DataArray type="Float64" Name="Mass" format="binary" RangeMin="267.35925845" RangeMax="267.35925845">
+          AQAAAACAAAAIAAAAEAAAAA==eJxzOH2idf/WAgcAFRkEfQ==
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Origin" NumberOfComponents="3" format="binary" RangeMin="5.8309518948" RangeMax="5.8309518948">
+          AQAAAACAAAAYAAAAFQAAAA==eJxjYAABjgNgikEASnMcAAAVmAJh
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Axis 1" NumberOfComponents="3" format="binary" RangeMin="8" RangeMax="8">
+          AQAAAACAAAAYAAAAEAAAAA==eJxjYAABBQcGNAAABpgAYQ==
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Axis 2" NumberOfComponents="3" format="binary" RangeMin="4" RangeMax="4">
+          AQAAAACAAAAYAAAADwAAAA==eJxjYEAGAg4wFgAC+ABR
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Axis 3" NumberOfComponents="3" format="binary" RangeMin="3.0022878831" RangeMax="3.0022878831">
+          AQAAAACAAAAYAAAAEQAAAA==eJxjYEAHFU3rWTgcAAiKAfY=
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Length" NumberOfComponents="3" format="binary" RangeMin="9.4347089268" RangeMax="9.4347089268">
+          AQAAAACAAAAYAAAAGQAAAA==eJxjYAABBQcwxSAApCua1rNwOAAAEeoCpg==
+        </DataArray>
+        <DataArray type="Float64" Name="VolumeWeightedAverage-Pressure (dynes/cm^2^)" format="binary" RangeMin="9308568.1628" RangeMax="9308568.1628">
+          AQAAAACAAAAIAAAAEAAAAA==eJx78dSU1fhgoiMAEvQDng==
+        </DataArray>
+        <DataArray type="Float64" Name="VolumeWeightedAverage-Temperature (eV)" format="binary" RangeMin="0.025681587578" RangeMax="0.025681587578">
+          AQAAAACAAAAIAAAAEAAAAA==eJzz/sym7eYzyx4ADW8C2w==
+        </DataArray>
+        <DataArray type="Float64" Name="MassWeightedAverage-Pressure (dynes/cm^2^)" format="binary" RangeMin="9732552.433" RangeMax="9732552.433">
+          AQAAAACAAAAIAAAAEAAAAA==eJzbfP4Wr+WEJEcAFD8D1g==
+        </DataArray>
+        <DataArray type="Float64" Name="MassWeightedAverage-Temperature (eV)" format="binary" RangeMin="0.025681665196" RangeMax="0.025681665196">
+          AQAAAACAAAAIAAAAEAAAAA==eJzz1KpP8PaZZQ8AC9MCww==
+        </DataArray>
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Array 0x88ee220" NumberOfComponents="3" format="binary" RangeMin="2.6925909001" RangeMax="2.6925909001">
+          AQAAAACAAAAYAAAAIQAAAA==eJxbUq7mw8zwwf74jo3SzAwMB3521zWyMvzYDwB17goN
+        </DataArray>
+      </Points>
+      <Verts>
+        <DataArray type="Int32" Name="connectivity" format="binary" RangeMin="0" RangeMax="0">
+          AQAAAACAAAAEAAAADAAAAA==eJxjYGBgAAAABAAB
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="binary" RangeMin="1" RangeMax="1">
+          AQAAAACAAAAEAAAADAAAAA==eJxjZGBgAAAACAAC
+        </DataArray>
+      </Verts>
+      <Lines>
+        <DataArray type="Int32" Name="connectivity" format="binary" RangeMin="0" RangeMax="0">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="binary" RangeMin="1" RangeMax="1">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+      </Lines>
+      <Strips>
+        <DataArray type="Int32" Name="connectivity" format="binary" RangeMin="0" RangeMax="0">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="binary" RangeMin="1" RangeMax="1">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+      </Strips>
+      <Polys>
+        <DataArray type="Int32" Name="connectivity" format="binary" RangeMin="0" RangeMax="0">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="binary" RangeMin="1" RangeMax="1">
+          AAAAAACAAAAAAAAA
+        </DataArray>
+      </Polys>
+    </Piece>
+  </PolyData>
+</VTKFile>

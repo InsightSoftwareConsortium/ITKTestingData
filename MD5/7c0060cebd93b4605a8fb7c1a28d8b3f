@@ -1,0 +1,151 @@
+InitialCycleNumber  = 0
+InitialTime         = 0
+InitialCPUTime      = 0.011545
+
+StopTime            = 0.4
+StopCycle           = 10000
+StopCPUTime         = 360000
+
+TimeLastRestartDump = 0
+dtRestartDump       = 18000
+TimeLastDataDump    = -5.000000000005e-07
+dtDataDump          = 0.05
+TimeLastHistoryDump = 0
+dtHistoryDump       = 0
+
+TimeLastMovieDump     = 0
+dtMovieDump           = 0
+MovieRegionLeftEdge   = 0 0 
+MovieRegionRightEdge  = 1 1 
+
+CycleLastRestartDump = 0
+CycleSkipRestartDump = 0
+CycleLastDataDump    = 0
+CycleSkipDataDump    = 0
+CycleLastHistoryDump = 0
+CycleSkipHistoryDump = 0
+
+OutputFirstTimeAtLevel = 0
+StopFirstTimeAtLevel = 0
+
+RestartDumpNumber   = 0
+DataDumpNumber      = 1
+HistoryDumpNumber   = 0
+MovieDumpNumber     = 0
+RestartDumpName     = restart
+DataDumpName        = data
+HistoryDumpName     = history
+MovieDumpName       = MovieOutput
+RedshiftDumpName    = RedshiftOutput
+
+StaticHierarchy     = 0
+TopGridRank         = 2
+TopGridDimensions   = 50 50 
+
+TopGridGravityBoundary = 0
+ParticleBoundaryType   = 3
+NumberOfParticles      = 0 (do not modify)
+CourantSafetyNumber    = 0.5
+PPMFlatteningParameter = 0
+PPMDiffusionParameter  = 0
+PPMSteepeningParameter = 0
+
+ProblemType            = 3
+HydroMethod            = 0
+huge_number            = 1.000000e+20
+tiny_number            = 1.000000e-06
+Gamma                  = 1.4
+PressureFree           = 0
+RefineBy               = 4
+MaximumRefinementLevel = 1
+MaximumGravityRefinementLevel = 1
+MaximumParticleRefinementLevel = -1
+CellFlaggingMethod     = 1 -99999 -99999 -99999 -99999 
+FluxCorrection         = 1
+InterpolationMethod    = 1
+ConservativeInterpolation = 1
+MinimumEfficiency      = 0.4
+NumberOfBufferZones    = 1
+
+DomainLeftEdge         = 0 0 
+DomainRightEdge        = 1 1 
+GridVelocity           = 0 0 
+RefineRegionLeftEdge   = 0 0 
+RefineRegionRightEdge  = 1 1 
+
+DataLabel[0]              = Density
+#DataCGSConversionFactor[0] = 1
+DataLabel[1]              = Total Energy
+DataLabel[2]              = x-velocity
+#DataCGSConversionFactor[2] = 1
+DataLabel[3]              = y-velocity
+#DataCGSConversionFactor[3] = 1
+DataLabel[4]              = z-velocity
+#DataCGSConversionFactor[4] = 1
+
+UniformGravity             = 0
+UniformGravityDirection    = 0
+UniformGravityConstant     = 1
+PointSourceGravity           = 0
+PointSourceGravityPosition   = 0 0 
+PointSourceGravityConstant   = 1
+PointSourceGravityCoreRadius = 0
+
+SelfGravity                    = 0
+GravitationalConstant          = 1.256636e+01
+S2ParticleSize                 = 3
+GravityResolution              = 1
+ComputePotential               = 0
+BaryonSelfGravityApproximation = 1
+
+GreensFunctionMaxNumber     = 1
+GreensFunctionMaxSize       = 1
+DualEnergyFormalism         = 0
+DualEnergyFormalismEta1     = 1.000000e-03
+DualEnergyFormalismEta2     = 1.000000e-01
+ParticleCourantSafetyNumber = 0.5
+
+RadiativeCooling               = 0
+GadgetEquilibriumCooling       = 0
+MultiSpecies                   = 0
+RadiationFieldType             = 0
+RadiationFieldLevelRecompute   = 0
+RadiationSpectrumNormalization = 1e-21
+RadiationSpectrumSlope         = 1.5
+ZEUSLinearArtificialViscosity    = 0
+ZEUSQuadraticArtificialViscosity = 2
+UseMinimumPressureSupport        = 0
+MinimumPressureSupportParameter  = 100.000000
+RefineByJeansLengthSafetyFactor  = 4.000000
+
+ParallelRootGridIO              = 0
+ParallelParticleIO              = 0
+Unigrid                         = 0
+ExtractFieldsOnly               = 1
+MinimumOverDensityForRefinement = 1.5 1.5 1.5 1.5 1.5
+MinimumMassForRefinement = 0.0006 0.0006 0.0006 0.0006 0.0006
+MinimumMassForRefinementLevelExponent = 0.000000 0.000000 0.000000 0.000000 0.000000
+MinimumSlopeForRefinement             = 3.000000e-01
+MinimumPressureJumpForRefinement      = 3.300000e-01
+MinimumEnergyRatioForRefinement       = 1.000000e-01
+ComovingCoordinates                   = 0
+StarParticleCreation                  = 0
+StarParticleFeedback                  = 0
+NumberOfParticleAttributes            = 0
+StarMakerOverDensityThreshold         = 100
+StarMakerMassEfficiency               = 1
+StarMakerMinimumMass                  = 1e+09
+StarMakerMinimumDynamicalTime         = 1e+06
+StarMassEjectionFraction              = 0.25
+StarMetalYield                        = 0.02
+StarEnergyToThermalFeedback           = 1e-05
+StarEnergyToStellarUV                 = 3e-06
+StarEnergyToQuasarUV                  = 5e-06
+
+MultiMetals                           = 0
+LeftFaceBoundaryCondition  = 2 2 
+RightFaceBoundaryCondition = 1 1 
+BoundaryConditionName      = data0000.boundary
+
+VersionNumber              = 1.300000
+

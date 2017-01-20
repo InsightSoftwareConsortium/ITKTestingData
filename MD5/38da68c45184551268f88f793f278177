@@ -1,0 +1,19 @@
+gmvinput ascii
+nodev 10
+ 1  1 0
+-1  1 0
+-1 -1 0
+ 1 -1 0
+ 0  0 1
+11  1 0
+ 9  1 0
+ 9 -1 0
+11 -1 0
+10  0 1
+
+cells 2
+ppyrmd5 5
+1 2 3 4 5
+pyramid 5
+10 6 7 8 9
+endgmv

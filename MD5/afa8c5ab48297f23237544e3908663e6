@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid  GridType="Collection" CollectionType="Temporal" Name="Mesh">
+      <Grid GridType="Uniform">
+        <Time Value="15.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="20.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="21.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="22.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="23.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="24.000000"/>
+        <Topology NumberOfElements="84423" Type="Tetrahedron">
+          <DataItem DataType="Int" Dimensions="84423 4" Format="HDF">Scenario1_p1.h5:/Geometry/elements/0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:/Geometry/nodes/0</DataItem>
+          <Information Name="my_nnode" Value="9664"/>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Pressure_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Pressure_Head/9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Total_fw_Head">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Total_fw_Head/9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Saturation">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Saturation/9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Nodal_Flux">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Nodal_Flux/9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Vector" Center="Node" Name="Velocity">
+          <DataItem DataType="Float" Dimensions="17536 3" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Velocity/9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="Temperature">
+          <DataItem DataType="Float" Dimensions="17536" Format="HDF" Precision="8">Scenario1_p1.h5:Data/Temperature/9</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>

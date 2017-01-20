@@ -1,0 +1,388 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" [
+<!ENTITY HeavyData "Iron_Protein.ImageData.h5">
+]>
+
+
+
+<Xdmf>
+  <Domain Name="IronProtein">
+    <Grid Collection="MySpecialCollection" Name="Iron00">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="36 36 36">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          0 0 0
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="36 36 36"
+           Format="HDF">
+           &HeavyData;:/Iron00/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="36 36 36 3"
+           Format="HDF">
+           &HeavyData;:/Iron00/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron01">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="36 36 37">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          0 0 31
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="36 36 37"
+           Format="HDF">
+           &HeavyData;:/Iron01/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="36 36 37 3"
+           Format="HDF">
+           &HeavyData;:/Iron01/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron02">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="36 36 36">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          0 32 0
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="36 36 36"
+           Format="HDF">
+           &HeavyData;:/Iron02/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="36 36 36 3"
+           Format="HDF">
+           &HeavyData;:/Iron02/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron03">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="36 36 37">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          0 32 31
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="36 36 37"
+           Format="HDF">
+           &HeavyData;:/Iron03/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="36 36 37 3"
+           Format="HDF">
+           &HeavyData;:/Iron03/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron04">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="35 36 36">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          33 0 0
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="35 36 36"
+           Format="HDF">
+           &HeavyData;:/Iron04/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="35 36 36 3"
+           Format="HDF">
+           &HeavyData;:/Iron04/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron05">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="35 36 37">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          33 0 31
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="35 36 37"
+           Format="HDF">
+           &HeavyData;:/Iron05/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="35 36 37 3"
+           Format="HDF">
+           &HeavyData;:/Iron05/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron06">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="35 36 36">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          33 32 0
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="35 36 36"
+           Format="HDF">
+           &HeavyData;:/Iron06/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="35 36 36 3"
+           Format="HDF">
+           &HeavyData;:/Iron06/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+    <Grid Collection="MySpecialCollection" Name="Iron07">
+      <Topology 
+         Type="3DCORECTMESH" Dimensions="35 36 37">
+      </Topology>
+      <Geometry Type="ORIGIN_DXDYDZ">
+        
+        <DataStructure
+           Name="Origin"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          33 32 31
+        </DataStructure>
+        <DataStructure
+           Name="Spacing"
+           DataType="Float"
+           Dimensions="3"
+           Format="XML">
+          1 1 1
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Active="1"
+         Type="Scalar"
+         Center="Node"
+         Name="scalars">
+        <DataStructure
+           DataType="UChar"
+           Dimensions="35 36 37"
+           Format="HDF">
+           &HeavyData;:/Iron07/scalars
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Type="Vector"
+         Center="Node"
+         Name="UnnamedNodeArray0">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="35 36 37 3"
+           Format="HDF">
+           &HeavyData;:/Iron07/UnnamedNodeArray0
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+  </Domain>
+
+</Xdmf>
