@@ -1,0 +1,26 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=mri
+$$ 2017-08-23 11:49:57.258 +0100  mri@CZC625CQG1
+$$ /opt/PV6.0.1/data/mri/20170823_100117_PHYSICS_PHYSICS_TCW_CASL_PROTOCOL2_2_3/26/AdjStatePerScan
+$$ process /opt/PV6.0.1/prog/mod/pipe
+##$AdjScanStateCompleted=Yes
+##$AdjScanStateAdjName=( 2, 128 )
+<SHIM_Scan> <RCVR_Standard>
+##$AdjScanStateCategory=( 2 )
+SHIM RCVR
+##$AdjScanStateTime=( 2 )
+<2017-08-23T11:49:45,645+0100> <2017-08-23T11:49:45,849+0100>
+##$AdjScanStateExpno=( 2 )
+26 26
+##$AdjScanStateState=( 2 )
+adj_successful adj_successful
+##$AdjScanStateResultId=( 2, 65 )
+<2.16.756.5.5.100.8323328.187926.1503485384.11> 
+<2.16.756.5.5.100.8323328.187926.1503485384.12>
+##$AdjScanStateMethod=( 2, 128 )
+<Bruker:AdjShim> <User:tcwMultiFLASH>
+##END=
+$$ File finished by PARX at 2017-08-23 11:49:57.258 +0100

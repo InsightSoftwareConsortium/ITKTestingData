@@ -1,0 +1,14 @@
+NRRD0004
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: float
+dimension: 2
+space dimension: 2
+sizes: 16 16
+space directions: (2,0) (0,3)
+kinds: domain domain
+endian: little
+encoding: raw
+space origin: (0,0)
+
+aàéAaàéAaàéA0ğB0ğB0ğB0ğB0ğB0ğBaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéA0ğB0ğB0ğB0ğB0ğBaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéA0ğB0ğB0ğB0ğBaàéAaàéA0ğB0ğB0ğBaàéAaàéAaàéAaàéAaàéAaàéA0ğB0ğB0ğB0ğBaà™A0ğB0ğB0ğB0ğB0ğB0ğB0ğBaàéAaàéA0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğBaà™A0ğB0ğB0ğB0ğB0ğB0ğB0ğBaàÙAaàÙAaàÙAaà™A0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğBaà™Aaà™A0ğB0ğBaàÙAaàÙAaàÙAaàÙAaàÙA0ğB0ğB0ğB0ğB0ğB0ğB0ğB0ğBaà™A0ğBaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙA0ğBaà¹A0ğBaà¹Aaà¹Aaà¹A0ğB0ğBaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaàÙAaà¹Aaà¹Aaà¹Aaà¹Aaà¹AaàéA0ğB0ğBaàÙAaàÙAaàÉAaàÙAaàÙAaàÙAaàÙAaàÙAaà¹Aaà¹Aaà¹Aaà¹Aaà¹AaàéAaàéA0ğBaàéAaàÉAaàÉAaàÉAaàÙAaàÙAaàÙAaà¹Aaà¹Aaà¹Aaà¹AaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàÉA0ğBaà¹Aaà¹Aaà¹Aaà¹Aaà¹Aaà¹AaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaà¹Aaà¹Aaà¹Aaà¹Aaà¹Aaà¹AaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaàéAaà¹Aaà¹Aaà¹Aaà¹Aaà¹AaàéAaàéAaàéAaàéA

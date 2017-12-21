@@ -1,0 +1,12 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=nmrsu
+$$ Thu May 11 14:08:45 2017 EDT (UT-4h)  nmrsu
+$$ /opt/PV5.1/data/nmrsu/nmr/20170511.Hq1/32/pdata/1/procs
+##$OFFSET=0
+##$SF=300.299309371188
+##$YMAX_p=32766
+##$YMIN_p=9
+##END=
