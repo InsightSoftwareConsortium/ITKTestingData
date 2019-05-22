@@ -1,0 +1,29 @@
+motions {
+
+	motion
+        {
+                phase_motion            2
+                ;motion_type: OSCILLATE MOTIONFILE ROTATE
+                motion_type             ROTATE_AXIS
+                rot_cntr                "0.0999003 -0.028 -0.0949"
+                rot_axis                "0.0  1.0  0.0"
+                rot_axis_freq           -57.8
+                tstart_prescribe        0.
+                tend_prescribe          1.0
+                t_damping               0.05
+                stl                     Small_Gear_scale.stl
+        }
+        motion
+        {
+                phase_motion            3
+                ;motion_type: OSCILLATE MOTIONFILE ROTATE
+                motion_type             ROTATE_AXIS
+                rot_cntr                "9.99002e-2 -2.799e-2 -0.186405"
+                rot_axis                "0.0  1.0  0.0"
+                rot_axis_freq           86.7
+                tstart_prescribe        0.
+                tend_prescribe          1.0
+                t_damping               0.05
+                stl                     Big_Gear_scale.stl
+        }
+}

@@ -1,0 +1,62 @@
+motions
+{
+	motion
+	{
+		phase_motion 		1
+		motion_type			ROTATE
+		rot_freq			"1.25 0.0 0.0"
+		rot_cntr			"-412.7395 121.03999999999999 -304.96000000000004"
+		tstart_prescribe	0.0
+		tend_prescribe		2.1
+		t_damping			0.0
+    stl           carrier.stl
+	}
+
+	motion
+	{
+		phase_motion		3				
+		motion_type			PLANETARY			
+		orbit_cntr "-412.7395 121.03999999999999 -304.96000000000004"
+        orbit_radius		0.090037
+		year_rotationVec	"1 0 0"
+		year_frequency		1.25
+		day_rotationVec		"1 0 0"
+		day_frequency		5.0
+		initial_centerOfDayRotation	"-412.7255 120.968 -305.014"
+		tstart_prescribe     	0.				
+		tend_prescribe        	2.1
+    stl           gear1.stl
+	}
+
+	motion
+	{
+		phase_motion		4				
+		motion_type			PLANETARY			
+		orbit_cntr "-412.7395 121.03999999999999 -304.96000000000004"
+		orbit_radius		0.090037
+		year_rotationVec	"1.0 0.0 0.0"
+		year_frequency		1.25
+		day_rotationVec		"1.0 0.0 0.0"
+		day_frequency		5.0
+		initial_centerOfDayRotation	"-412.7255 121.0285 -304.8705"
+		tstart_prescribe    0.				
+		tend_prescribe      2.1				
+    stl           gear2.stl
+	}
+
+	motion
+	{
+		phase_motion		5				
+		motion_type			PLANETARY
+		orbit_cntr "-412.7395 121.03999999999999 -304.96000000000004"
+		orbit_radius		0.090037
+		year_rotationVec	"1.0 0.0 0.0"
+		year_frequency		1.25
+		day_rotationVec		"1.0 0.0 0.0"
+		day_frequency		5.0
+		initial_centerOfDayRotation	"-412.7255 121.1225 -304.9945"
+		tstart_prescribe    0.				
+		tend_prescribe      2.1				
+    stl           gear3.stl
+	}
+}

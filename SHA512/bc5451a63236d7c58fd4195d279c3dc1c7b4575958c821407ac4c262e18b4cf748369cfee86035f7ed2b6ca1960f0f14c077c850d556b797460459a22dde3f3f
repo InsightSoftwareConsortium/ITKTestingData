@@ -1,0 +1,122 @@
+motions
+{
+
+	motion
+	{
+		phase_motion		1				; Phase ID (counting from the top-down in the phase definition parameters).
+		motion_type		POSITION_FILE			; Type of motion.
+		positionFile		Link31_New.prn	;Link31.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+		tstart_prescribe     	0.				; Starting time of the motion.
+		tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl  Link31_New.stl
+    initial_centerOfMass    "40.06 8.55 -284.15"
+	}
+
+  motion
+  {
+  	phase_motion		2				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link30_New.prn	;Link30.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl  Link30_New.stl
+    initial_centerOfMass    "55.757022857666016 8.550000190734863 -318.8666534423828"
+  }
+
+  motion
+  {
+  	phase_motion		3				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		LinkOut29_New.prn	;LinkOut29.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl LinkOut29_New.stl
+    initial_centerOfMass "63.56571006774902 8.649999886751175 -336.2427978515625"
+  }
+
+  motion
+  {
+  	phase_motion		4				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		LinkOut30_New.prn	;LinkOut30.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl LinkOut30_New.stl
+    initial_centerOfMass "47.92695236206055 8.649999886751175 -301.5003967285156"
+  }
+  
+  motion
+  {
+  	phase_motion		5				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		LinkOut31_New.prn	;LinkOut31.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl LinkOut31_New.stl
+    initial_centerOfMass "32.145782470703125 8.649999886751175 -266.82244873046875"
+  }
+  
+  motion
+  {
+  	phase_motion		6				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link29Roller2_New.prn	;Link29Roller2.txt	; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl Link29Roller2_New.stl
+    initial_centerOfMass "67.46652793884277 8.550000071525574 -344.9320983886719"
+  }
+  
+  motion
+  {
+  	phase_motion		7				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link30Roller1_New.prn	;Link30Roller1.txt	; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl Link30Roller1_New.stl
+    initial_centerOfMass "59.664934158325195 8.550000071525574 -327.5531005859375"
+  }
+  
+  motion
+  {
+  	phase_motion		8				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link30Roller2_New.prn	;Link30Roller2.txt	; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl Link30Roller2_New.stl
+    initial_centerOfMass "51.849111557006836 8.550000071525574 -310.1802062988281"
+  } 
+  
+  motion
+  {
+  	phase_motion		9				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link31Roller1_New.prn	;Link31Roller1.txt	; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl Link31Roller1_New.stl
+    initial_centerOfMass "44.00479316711426 8.550000071525574 -292.82020568847656"
+  }
+  
+  motion
+  {
+  	phase_motion		10				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Link31Roller2_New.prn	;Link31Roller2.txt	; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+    stl Link31Roller2_New.stl
+    initial_centerOfMass "36.11774921417236 8.550000071525574 -275.4796447753906"
+  }
+  
+  motion
+  {
+  	phase_motion		11				; Phase ID (counting from the top-down in the phase definition parameters).
+  	motion_type		POSITION_FILE			; Type of motion.
+  	positionFile		Sprocket_New.prn	;Sprocket.txt		; name of the file that contains the coordinates and angular velocity vectors as a function of time.
+  	tstart_prescribe     	0.				; Starting time of the motion.
+  	tend_prescribe        	1.43				; Ending time of the motion. Note that by changing starting time and ending time, you can add the motions of a single phase in order to get a complex motion.
+  }
+}

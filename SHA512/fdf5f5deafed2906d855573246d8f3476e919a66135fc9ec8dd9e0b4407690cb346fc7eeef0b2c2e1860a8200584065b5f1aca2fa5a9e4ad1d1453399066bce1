@@ -1,0 +1,12 @@
+n1=5
+n2=5
+n3=4
+d1=1
+d2=1
+d3=1
+o1=0
+o2=0
+o3=0
+data_format="xdr_float"
+in=small.H@
+

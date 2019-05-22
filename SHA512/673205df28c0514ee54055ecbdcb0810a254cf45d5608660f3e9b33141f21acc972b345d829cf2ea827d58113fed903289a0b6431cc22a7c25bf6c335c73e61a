@@ -1,0 +1,22 @@
+ply
+format ascii 1.0
+comment TextureFile 2vtk.png
+element vertex 6
+property float x
+property float y
+property float z
+property uchar diffuse_red
+property uchar diffuse_green
+property uchar diffuse_blue
+element face 2
+property list uchar int vertex_indices
+property list uchar float texcoord
+end_header
+-1.0 -1.0 0.0 255 0 0
+1.0 -1.0 0.0 255 0 255
+1.0 1.0 0.0 0 255 255
+-1.0 1.0 0.0 0 0 255
+-1.0 0.0 0.0 127 0 127
+1.0  0.0 0.0 127 127 255
+4 0 1 5 4 8 0 0 1 0 1 0.25 0 0.25
+4 4 5 2 3 8 0 0.75 1 0.75 1 1 0 1

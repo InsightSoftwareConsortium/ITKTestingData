@@ -1,0 +1,13 @@
+# Define the number of dimensions we are working on
+dim = 2
+
+# Define the image coordinates
+100.tif; ; (0.0, 0.0)
+101.tif; ; (1136.0, 0.0)
+102.tif; ; (2272.0, 0.0)
+105.tif; ; (0.0, 851.0)
+104.tif; ; (1136.0, 851.0)
+103.tif; ; (2272.0, 851.0)
+106.tif; ; (0.0, 1702.0)
+107.tif; ; (1136.0, 1702.0)
+108.tif; ; (2272.0, 1702.0)

@@ -1,0 +1,19 @@
+# Two triangles...
+ 
+mtllib TwoTrianglesWithNegativeIndices.mtl
+ 
+# FIRST TRIANGLE / GROUP:   (will be red and shiny)
+g triangle1
+usemtl material_for_first_triangle
+v 0 0 4
+v 8 0 4
+v 8 2 0
+f -3 -2 -1
+ 
+# SECOND TRIANGLE / GROUP:   (will be white and transparent) 
+g triangle2
+usemtl material_for_second_triangle
+v 0 0 4
+v 4 0 4
+v 4 2 4
+f -3 -2 -1

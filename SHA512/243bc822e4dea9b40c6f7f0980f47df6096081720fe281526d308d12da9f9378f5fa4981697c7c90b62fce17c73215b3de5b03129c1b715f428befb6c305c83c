@@ -1,0 +1,11 @@
+#MATERIAL FOR GROUP 1:
+newmtl material_for_first_triangle
+Kd 1 0 1      # Magenta
+Ks 1 1 1      # White
+Ns 50         # Very shiny.
+ 
+MATERIAL FOR GROUP 2:
+newmtl material_for_second_triangle
+Kd 1 0 0        # Red
+Ks 0 1 0        # Green
+Ns 0            # No shine (completely dull).
