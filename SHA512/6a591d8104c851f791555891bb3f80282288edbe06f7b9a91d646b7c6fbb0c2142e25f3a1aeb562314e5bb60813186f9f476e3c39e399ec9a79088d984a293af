@@ -1,0 +1,13 @@
+# Define the number of dimensions we are working on  The numbering is COLUMN  ROW ordering (X, Y) within the filename.
+dim = 2
+
+# Define the image coordinates
+1701701_000000_00_00.bmp; ; (0.0, 0.0)
+1701701_000000_01_00.bmp; ; (1148.0, 3.0)
+1701701_000000_02_00.bmp; ; (2285, 6)
+1701701_000000_00_01.bmp; ; (-5, 852)
+1701701_000000_01_01.bmp; ; (1137, 855)
+1701701_000000_02_01.bmp; ; (2287, 858)
+1701701_000000_00_02.bmp; ; (-7, 1727)
+1701701_000000_01_02.bmp; ; (1140, 1730)
+1701701_000000_02_02.bmp; ; (2275, 1733)
