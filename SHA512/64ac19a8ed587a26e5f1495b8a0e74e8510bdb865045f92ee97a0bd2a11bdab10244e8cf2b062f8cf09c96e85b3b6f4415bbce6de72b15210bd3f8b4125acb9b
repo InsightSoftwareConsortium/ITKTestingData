@@ -1,0 +1,31 @@
+{
+    "imageType": {
+        "dimension": 2,
+        "componentType": "uint8_t",
+        "pixelType": 2,
+        "components": 3
+    },
+    "origin": [
+        0.0,
+        0.0
+    ],
+    "spacing": [
+        1.0,
+        1.0
+    ],
+    "direction": {
+        "rows": 2,
+        "columns": 2,
+        "data": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "size": [
+        256,
+        256
+    ],
+    "data": "/home/matt/src/itk-js/build/Testing/Temporary/TestJSON-cthead1.json.data"
+}
