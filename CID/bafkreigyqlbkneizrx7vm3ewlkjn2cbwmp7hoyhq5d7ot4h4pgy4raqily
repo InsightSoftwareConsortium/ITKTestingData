@@ -1,0 +1,34 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=nmrsu
+$$ Thu May 11 14:08:45 2017 EDT (UT-4h)  nmrsu
+$$ /opt/PV5.1/data/nmrsu/nmr/20170511.Hq1/32/pdata/1/d3proc
+##$SEQTYPE=slices
+##$DATTYPE=ip_short
+##$IM_SIX=200
+##$IM_SIY=180
+##$IM_SIZ=100
+##$IM_SIT=1
+##$SIM_SIX=200
+##$SIM_SIY=180
+##$SIM_SIZ=100
+##$SIM_SIT=1
+$$ @vis= SEQTYPE DATTYPE IM_SIX IM_SIY IM_SIZ IM_SIT SIM_SIX SIM_SIY SIM_SIZ
+##$SIM_X0=0
+##$SIM_Y0=0
+##$SIM_Z0=0
+##$SIM_T0=0
+##$CEN_SLC=50
+##$THRESH=( 16 )
+60 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$D3_DESC=( 128 )
+<>
+##$PR_STA=( 16 )
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$PR_STP=( 16 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 32
+$$ @vis= SIM_SIT SIM_X0 SIM_Y0 SIM_Z0 SIM_T0 CEN_SLC THRESH D3_DESC PR_STA
+$$ @vis= PR_STP
+##END=

@@ -1,0 +1,12 @@
+ObjectType = Image
+NDims = 3
+DimSize = 6 6 6
+ElementType = MET_UCHAR
+HeaderSize = 8
+ElementDataFile = LIST
+Small Ramp Volume 01.tif
+Small Ramp Volume 02.tif
+Small Ramp Volume 03.tif
+Small Ramp Volume 04.tif
+Small Ramp Volume 05.tif
+Small Ramp Volume 06.tif

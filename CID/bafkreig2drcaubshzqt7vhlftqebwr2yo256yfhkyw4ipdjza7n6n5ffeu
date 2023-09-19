@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 2
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 1
+Offset = 0 0
+CenterOfRotation = 0 0
+ElementSpacing = -1.2 -1.2
+DimSize = 10 10
+AnatomicalOrientation = ??
+ElementType = MET_UCHAR
+ElementDataFile = LOCAL
+Ôî‘©~m¥Tlö‘!‹\"ÑÌyñ«ò“²¤¬7H^ÍT;O<æ$tŠ£ƒ¬ì¬’©(ú[I/ÇW$³þÄ)×\M„žc­;ëØ+»àìO’^DD×ÉÅ¬Ò7‰ây©ÕŒK
