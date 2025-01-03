@@ -1,0 +1,14 @@
+# vtk DataFile Version 2.0
+File written by itkPolyDataMeshIO
+ASCII
+DATASET POLYDATA
+POINTS 9 float
+0 0 0
+180 0 0
+180 217 0
+0 217 0
+0 0 180
+180 0 180
+180 217 180
+0 217 180
+90 108 90

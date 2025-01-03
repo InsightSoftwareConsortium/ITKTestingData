@@ -1,0 +1,139 @@
+{
+    "PresentationLabel": "ITKWASMTEST2",
+    "PresentationDescription": "",
+    "PresentationCreatorsName": "Kitware",
+    "CurrentWindowCenter": 40.0,
+    "CurrentWindowWidth": 210.0,
+    "CurrentVOIDescription": "",
+    "Flip": true,
+    "Rotation": 90,
+    "PresentationSizeMode": "scaleToFit",
+    "DisplayedAreaPresentationPixelMagnificationRatio": 1.0,
+    "StandardDisplayedArea": [
+        1,
+        1,
+        512,
+        512
+    ],
+    "DisplayedAreaPresentationPixelSpacing": [
+        0.683,
+        0.683
+    ],
+    "RectangularShutter": {
+        "RectShutterLV": 96,
+        "RectShutterRV": 474,
+        "RectShutterUH": 91,
+        "RectShutterLH": 431
+    },
+    "PolygonalShutter": {
+        "NumberOfPolyShutterVertices": 11,
+        "Coordinates": [
+            315,
+            121,
+            406,
+            115,
+            428,
+            205,
+            464,
+            274,
+            471,
+            368,
+            274,
+            391,
+            108,
+            343,
+            99,
+            229,
+            177,
+            115,
+            316,
+            121,
+            315,
+            121
+        ]
+    },
+    "ShutterPresentationValue": 19660,
+    "GraphicsLayers": [
+        {
+            "Name": "ANNOTATIONS 0",
+            "Description": "",
+            "RecommendedDisplayValueGray": 65535,
+            "RecommendedDisplayValueRGB": [
+                65535,
+                65535,
+                65535
+            ],
+            "TextObjects": [
+                {
+                    "Text": "My text label 1",
+                    "BoundingBox": [
+                        215.16871643066406,
+                        63.8377571105957,
+                        221.59449768066406,
+                        122.47056579589844
+                    ],
+                    "BoundingBoxUnits": "pixel",
+                    "BoundingBoxHorizontalJustification": "left"
+                },
+                {
+                    "Text": "Length = 120 mm",
+                    "BoundingBox": [
+                        107.2143783569336,
+                        305.4699401855469,
+                        179.13626098632813,
+                        297.0441589355469
+                    ],
+                    "BoundingBoxUnits": "pixel",
+                    "BoundingBoxHorizontalJustification": "left"
+                }
+            ],
+            "GraphicObjects": [
+                {
+                    "GraphicType": "polyline",
+                    "IsFilled": false,
+                    "Units": "pixel",
+                    "Points": [
+                        209.14080810546875,
+                        141.18984985351563,
+                        392.71795654296875,
+                        141.18984985351563,
+                        392.71795654296875,
+                        289.695556640625,
+                        209.14080810546875,
+                        289.695556640625,
+                        209.14080810546875,
+                        141.18984985351563
+                    ]
+                },
+                {
+                    "GraphicType": "polyline",
+                    "IsFilled": false,
+                    "Units": "pixel",
+                    "Points": [
+                        146.1217803955078,
+                        226.67652893066406,
+                        219.55264282226563,
+                        351.07061767578125
+                    ]
+                },
+                {
+                    "GraphicType": "ellipse",
+                    "IsFilled": false,
+                    "Units": "pixel",
+                    "Points": [
+                        465.0528564453125,
+                        309.1492614746094,
+                        273.8038024902344,
+                        309.1492614746094,
+                        369.4283447265625,
+                        243.66427612304688,
+                        369.4283447265625,
+                        374.6342468261719
+                    ]
+                }
+            ],
+            "Curves": [],
+            "Overlays": []
+        }
+    ]
+}
