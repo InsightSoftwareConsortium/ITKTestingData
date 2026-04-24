@@ -1,0 +1,6 @@
+Total Overlap = 0.975807
+Union Overlap (Jaccard Coefficient) = 0.947959
+Mean Overlap (Dice Coefficient) = 0.973284
+Similarity = 0.00517076
+False Negative Error = 0.0241928
+False Positive Error = 0.0001521

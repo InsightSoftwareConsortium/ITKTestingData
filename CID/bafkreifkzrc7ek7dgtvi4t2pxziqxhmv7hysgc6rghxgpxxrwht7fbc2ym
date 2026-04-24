@@ -1,0 +1,83 @@
+ObjectType = Scene
+NDims = 3
+NObjects = 4
+ObjectType = Group
+NDims = 3
+ID = 4
+Color = 1 0 0 1
+BinaryData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+EndGroup = 
+ObjectType = Tube
+ObjectSubType = Vessel
+NDims = 3
+ID = 1
+ParentID = 4
+Color = 1 0 0 1
+BinaryData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+Root = True
+Artery = True
+PointDim = id x y z red green blue alpha mark r rn mn bn cv lv ro in tx ty tz v1x v1y v1z v2x v2y v2z a1 a2 a3
+NPoints = 10
+Points = 
+-1 -9 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -8 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -7 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -6 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -5 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -4 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -3 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -2 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 -1 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+-1 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 -1 0 0 0 -1 0 0 0 
+ObjectType = Tube
+ObjectSubType = Vessel
+NDims = 3
+ID = 2
+ParentID = 1
+Color = 1 0 0 1
+BinaryData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+ParentPoint = 9
+Root = False
+Artery = True
+PointDim = id x y z red green blue alpha mark r rn mn bn cv lv ro in tx ty tz v1x v1y v1z v2x v2y v2z a1 a2 a3
+NPoints = 5
+Points = 
+-1 1 1 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 0 
+-1 2 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 0 
+-1 3 3 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 0 
+-1 4 4 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 0 
+-1 5 5 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 0 
+ObjectType = Tube
+ObjectSubType = Vessel
+NDims = 3
+ID = 3
+ParentID = 1
+Color = 1 0 0 1
+BinaryData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+ParentPoint = 9
+Root = False
+Artery = True
+PointDim = id x y z red green blue alpha mark r rn mn bn cv lv ro in tx ty tz v1x v1y v1z v2x v2y v2z a1 a2 a3
+NPoints = 5
+Points = 
+-1 1 -1 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -0 -1 0 0 0 
+-1 2 -2 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -0 -1 0 0 0 
+-1 3 -3 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -0 -1 0 0 0 
+-1 4 -4 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -0 -1 0 0 0 
+-1 5 -5 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -0 -1 0 0 0 

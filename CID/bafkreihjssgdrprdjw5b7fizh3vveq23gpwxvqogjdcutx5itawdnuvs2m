@@ -1,0 +1,32 @@
+ObjectType = Scene
+NDims = 3
+NObjects = 2
+ObjectType = Group 
+NDims = 3
+ID = 0
+Color = 1 0 0 1
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+EndGroup = 
+ObjectType = Tube
+ObjectSubType = Vessel
+NDims = 3
+ID = 1
+ParentID = 0
+Color = 1 0.3 0.2 1
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1 1 1
+Root = True
+Artery = True
+PointDim = x y z r
+NPoints = 5
+Points =
+30.007105 50.000000 0.200000 4.982000
+30.001776 50.000000 0.100000 4.991000
+30.007105 50.000000 0.200000 4.982000
+30.015984 50.000000 0.300000 4.973000
+30.028411 50.000000 0.400000 4.964000
