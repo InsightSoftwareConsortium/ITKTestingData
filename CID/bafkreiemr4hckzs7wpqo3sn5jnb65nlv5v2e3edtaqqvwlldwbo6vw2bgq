@@ -1,0 +1,9 @@
+<image name= "raw.xml"  bitDepth="16" pixelFormat="Type_uint16" byteOrder="LSB" modality="CR" matrixTransform="1 0 0 -213.12   0 1 0 -213.268   0 0 1 0   0 0 0 1" dimensions ="2" sequence="0" rawFile="raw.raw">
+<size x="1440" y="1441" z="1"/>
+<spacing x="0.296" y="0.296" z="1"/>
+<acquisition sequence="0" axis="RADB" patientPosition="FFP">
+<xray kvp="120" ma="400" ms="40" />
+<gantry angle="-123.7060546875" CW="1"/>
+</acquisition>
+<dicom instanceUID="" seriesUID="" studyUID="" patientID=""/>
+</image>

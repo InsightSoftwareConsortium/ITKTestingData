@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iMagXGeometricalCalibrationModel>
+   <FlatPanel axis="CBCT">
+      <DetectorTranslation><!--Detector translation parameters-->
+         <Px MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Py MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Pz MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+      </DetectorTranslation>
+      <DetectorRotation><!--Detector rotation parameters-->
+         <Rx MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Ry MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Rz MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+      </DetectorRotation>
+      <SourceTranslation><!--Source translation parameters-->
+         <Tx MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Ty MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+         <Tz MSE="0" a0="0" a1="0" a2="0" a3="0" a4="0"/>
+      </SourceTranslation>
+   </FlatPanel>
+</iMagXGeometricalCalibrationModel>

@@ -1,0 +1,26 @@
+Phantom
+
+// original 3D phantom
+
+// -------------------
+
+[Ellipsoid]  A=88.32      B=115.2	C=117.76        x=0         y=0   	z=0 	    beta=0         gray=2.0
+
+[Ellipsoid]  A=84.7872    B=112.64     	C=111.872       x=0         y=0         z=0  	    beta=0         gray=-0.98
+
+[Ellipsoid]  A=52.48      B=26.88      	C=20.48         x=-28.16    y=-32      	z=0         beta=108       gray=-0.02 
+
+[Ellipsoid]  A=39.68      B=28.16       C=14.08         x=28.16     y=-32       z=0         beta=72        gray=-0.02 
+
+[Ellipsoid]  A=26.88      B=64          C=32           	x=0         y=-32     	z=44.8      beta=0         gray=0.02 
+
+[Ellipsoid]  A=5.888      B=5.888       C=5.888        	x=0         y=-32     	z=12.8      beta=0         gray=0.02 
+
+[Ellipsoid]  A=5.888      B=2.56       	C=2.944         x=-10.24    y=-32      	z=-83.2     beta=0         gray=0.01 
+
+[Ellipsoid]  A=5.888      B=2.56       	C=2.944         x=7.68      y=-32      	z=-83.2     beta=90        gray=0.01 
+
+[Ellipsoid]  A=7.168      B=12.8        C=5.12         	x=7.68      y=80     	z=-13.44    beta=90        gray=0.02 
+
+[Ellipsoid]  A=7.168      B=12.8       	C=7.168         x=0         y=80     	z=12.8      beta=0         gray=-0.02 
+

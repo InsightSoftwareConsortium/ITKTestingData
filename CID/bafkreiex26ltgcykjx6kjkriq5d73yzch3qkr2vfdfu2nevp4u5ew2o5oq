@@ -1,0 +1,13 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 0.00222294 0 -0.999998 0 1 0 0.999998 0 0.00222294
+Offset = -639.471 51.1362 892.605
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = SAR
+ElementSpacing = 1.00005 2.0025 1
+DimSize = 1352 290 1
+ElementType = MET_FLOAT
+ElementDataFile = 0_afterLog.raw

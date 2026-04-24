@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSetSessionInfo xmlns="http://baden.varian.com/DataSetSessionInfo.xsd">
+  <SessionInfo>
+    <PatientID>T4D-QA</PatientID>
+    <ModeID>Pelvis spot light 360</ModeID>
+    <SessionID>2012.11.12 19_42_33</SessionID>
+    <Title />
+    <AssocDisease />
+    <Topogram />
+    <PulseControl />
+    <StartAngle>180</StartAngle>
+    <StartAngleExtendedFlag>false</StartAngleExtendedFlag>
+    <StopAngle>180</StopAngle>
+    <StopAngleExtendedFlag>true</StopAngleExtendedFlag>
+    <GantryRtnSpeed>6</GantryRtnSpeed>
+    <ConnectedMachineType>Undefined</ConnectedMachineType>
+    <NormalizationMethod>SingleImage</NormalizationMethod>
+    <ScatteringCorrection>None</ScatteringCorrection>
+    <PreProcessFilter>None</PreProcessFilter>
+    <PostProcessFilter />
+    <ConvolutionType>RamLak</ConvolutionType>
+    <ConvolutionFilter>Sharp</ConvolutionFilter>
+    <ReconstructionVolumeXY>Vol384X384</ReconstructionVolumeXY>
+    <PatientPosition>HFP</PatientPosition>
+    <ScanRangeCenter>0</ScanRangeCenter>
+    <ScanRangeWidth>180</ScanRangeWidth>
+    <ScanZeroPosition>0</ScanZeroPosition>
+    <PatientSizeLat>250</PatientSizeLat>
+    <PatientSizePA>250</PatientSizePA>
+    <PatientSizeLng>180</PatientSizeLng>
+    <FanType>FullFan</FanType>
+    <ReconstrImgOffsetX>0</ReconstrImgOffsetX>
+    <ReconstrImgOffsetY>0</ReconstrImgOffsetY>
+    <ReconstrImgOffsetZ>0</ReconstrImgOffsetZ>
+    <Voltage>125</Voltage>
+    <Current>50</Current>
+    <PulseLength>32</PulseLength>
+    <PulseMode />
+    <PhysicalFilter />
+    <ScatterGrid />
+    <SliceDistance>Dist2_5</SliceDistance>
+    <CalibratedSAD>1000</CalibratedSAD>
+    <CalibratedSID>1500.4126384616948</CalibratedSID>
+    <CalibratedDetectorOffsetX>0.21101360158678917</CalibratedDetectorOffsetX>
+    <CalibratedDetectorOffsetY>-1.3169233205075164</CalibratedDetectorOffsetY>
+    <CalibratedNormAirCounts>0</CalibratedNormAirCounts>
+    <CalibratedHUSlope>0</CalibratedHUSlope>
+    <CalibratedHUOffset>0</CalibratedHUOffset>
+    <DetectorSizeX>397.312</DetectorSizeX>
+    <DetectorSizeY>297.984</DetectorSizeY>
+    <DetectorPosLat>148</DetectorPosLat>
+    <NumberOfScans>0</NumberOfScans>
+    <ScanType>SingleConeBeam</ScanType>
+    <ScanSequence>SingleScan</ScanSequence>
+    <RingArtSupression>Medium</RingArtSupression>
+    <DX_DR_RatioCustom>NaN</DX_DR_RatioCustom>
+    <DX_DT_RatioCustom>NaN</DX_DT_RatioCustom>
+  </SessionInfo>
+  <ScanInfo>
+    <ScanID>11/12/2012 7:43:41 PM</ScanID>
+    <ScanIndex>0</ScanIndex>
+    <SessionID>2012.11.12 19_42_33</SessionID>
+    <FolderPath>D:\VMSOS\AppData\CBCT\Rec\CBCTProjections\T4D-QA\2012.11.12 19_42_33\Scan0</FolderPath>
+    <CouchLng>756</CouchLng>
+    <CouchVrt>-137</CouchVrt>
+    <CouchLat>1</CouchLat>
+    <CouchRtn>0</CouchRtn>
+    <ScanWidth>180</ScanWidth>
+    <NumberOfProj>686</NumberOfProj>
+    <GantryRtnDir>Clockwise</GantryRtnDir>
+  </ScanInfo>
+</DataSetSessionInfo>

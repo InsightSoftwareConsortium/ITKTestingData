@@ -1,0 +1,10 @@
+Phantom
+
+// original 3D phantom
+
+// -------------------
+
+
+[Cone]       A=25.          B=-50.           C=25.           x=2.        y=2.           z=2.        beta=0        gray=-0.54
+
+[Cylinder]   A=100.         B=0.             C=100.          x=2.        y=2.           z=2.        beta=0        gray=2.

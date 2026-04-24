@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iMagXRoomSetup>
+   <FlatPanel axis="CBCT">
+      <pixelSize x="0.296" y="0.296"/>
+      <dimensions x="1440" y="1441"/>
+      <Distances sdd="1651" sid="1049"/>
+      <transformToRad a00="1.0" a01="0.0" a02="0.0" a03="213.12" a10="0.0" a11="1.0" a12="0.0" a13="213.27" a20="0.0" a21="0.0" a22="1.0" a23="0.0" a30="0.0" a31="0.0" a32="0.0" a33="1.0"/>
+      <offset angle="0"/>
+   </FlatPanel>
+</iMagXRoomSetup>

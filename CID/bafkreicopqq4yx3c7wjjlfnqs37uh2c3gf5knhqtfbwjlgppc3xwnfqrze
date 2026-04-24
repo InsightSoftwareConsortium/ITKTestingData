@@ -1,0 +1,20 @@
+Phantom
+
+// original 3D phantom
+
+// -------------------
+{
+  [Cylinder: x=2 y=2 z=2    l=300   r=100    axis(0,1,0)]
+  rho = 2.0
+}
+{
+  [Cone:     x=2 y=-98 z=2    l=200  r1=100  r2=0 axis(0,1,0)]
+  rho = 1.46
+}
+{
+  [Cone:     x=2 y=102 z=2    l=200  r1=100  r2=0 axis(0,-1,0)]
+  rho = 1.46
+  union=-1
+}
+
+
