@@ -1,0 +1,12 @@
+FormTypeName = LDA
+BinaryData = False
+NDims = 3
+NBasis = 1
+NPCABasis = 0
+NLDABasis = 1
+Values = 2.07468 0.00454761 8.56727e-09
+Matrix = 1.13928 0.879392 -0.00401943 -16.3194 0.000242007 0.00403947 37.2003 -9.422e-07 0.000393786
+InputWhitenMeans = 0 0 0
+InputWhitenStdDevs = 1 1 1
+OutputWhitenMeans = -6.5995
+OutputWhitenStdDevs = 0.584781
