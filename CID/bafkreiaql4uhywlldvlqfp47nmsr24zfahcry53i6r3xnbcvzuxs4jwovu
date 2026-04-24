@@ -1,0 +1,15 @@
+ObjectType = Image
+NDims = 2
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 1
+Offset = 3.5 3.5
+CenterOfRotation = 0 0
+ElementSpacing = 8 8
+DimSize = 12 12
+AnatomicalOrientation = ??
+ElementType = MET_FLOAT
+ElementDataFile = LOCAL
+XüCâJCXØCZB3¥ÐBu°	C¿¡¾B³CñBCxCÝ}øB	C%,CÌ4CÿŸ5CJðBÕC®r2C…”íBáGCzw3C´yJCÂéCÀC¯Ð6C\9Cƒ>CÈ‡!CÆœ>Cp¥6C$~éB®ŒCÙ³C$NBC¨¬+CLf'C¸RKC£5CB­'CIÜ#CH·=C(J(CŒõÞBQCÒ9àBfC‡J"C¾5C÷Õ-CnE.CV"CÀúCÐ`BCØä=C3ýC@NCZIÇB~ÞCrÆ%C‰4Cî-CJCeÜCøfCþBCîBDCŽC³ÞCô¯B”4CžãCé÷(C_*C%³Cã†CýöBfç*C³xLC¾C½¥ÂB¬ãøBÓ$CºzCÈ¬'CÂ¨Câ0
+C‡ÒB“\÷B©Ñ-C—¡MCÝ:CÏÿÕB*MöBÒ‰4CÊÁ&C ,C‡U.C#Â9CZ¬üB_JÂBt])Cî+C¦'4C%5ÑBò;¸BÿCTL)C`68CcECÏ9CDmCâ¼B|8éBZÜB…C8jÛByïC Ü'CÖÁ.CÂF7C"àBC1;CsC³$×BÜRÂB34¬BOìBÇ¼ÜB2>çBù!,CW!:CÆ;C ïDCR¢ICCp‹¥Bä³RBíBÑ‡CÒÁ×BÎÆ»BÎŒ*Cj&CÎÌ C
