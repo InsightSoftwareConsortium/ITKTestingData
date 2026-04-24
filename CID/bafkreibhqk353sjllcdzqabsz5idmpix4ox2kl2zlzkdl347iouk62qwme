@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE RTKGEOMETRY>
+<RTKThreeDCircularGeometry version="3">
+    <SourceToIsocenterDistance>635.617666866951</SourceToIsocenterDistance>
+    <SourceToDetectorDistance>1275.6252493628</SourceToDetectorDistance>
+    <SourceOffsetX>16.4892923366613</SourceOffsetX>
+    <SourceOffsetY>2.89930957605429</SourceOffsetY>
+    <ProjectionOffsetX>-659.044947132066</ProjectionOffsetX>
+    <ProjectionOffsetY>-289.3608486</ProjectionOffsetY>
+    <CollimationUInf>-1.6185548</CollimationUInf>
+    <CollimationUSup>205.6856329</CollimationUSup>
+    <CollimationVInf>139.998903</CollimationVInf>
+    <CollimationVSup>150.0015555</CollimationVSup>
+  <Projection>
+    <GantryAngle>89.8726348150875</GantryAngle>
+    <Matrix>
+         672.696932013462                   0    1277.12376971309   -408347.339531083
+         292.259436078895    -1275.6252493628   0.649676795538925   -182067.287357095
+         0.99999752926583                   0 0.00222293999836805   -635.617666866951
+    </Matrix>
+  </Projection>
+</RTKThreeDCircularGeometry>
