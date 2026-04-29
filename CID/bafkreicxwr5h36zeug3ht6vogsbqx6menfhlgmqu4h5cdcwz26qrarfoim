@@ -1,0 +1,6 @@
+# Markups fiducial file version = 4.10
+# CoordinateSystem = 0
+# columns = id,x,y,z,ow,ox,oy,oz,vis,sel,lock,label,desc,associatedNodeID
+vtkMRMLMarkupsFiducialNode_50,-4.945,-9.225,46.011,0.000,0.000,0.000,1.000,1,1,0,CoFH,Center of Femur Head,vtkMRMLScalarVolumeNode2
+vtkMRMLMarkupsFiducialNode_51,-7.424,-9.474,44.711,0.000,0.000,0.000,1.000,1,1,0,FS,Femur Shaft,vtkMRMLScalarVolumeNode2
+vtkMRMLMarkupsFiducialNode_52,-5.018,-9.058,47.535,0.000,0.000,0.000,1.000,1,1,0,D,Dent,vtkMRMLScalarVolumeNode2
